@@ -4,13 +4,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2989dc72-1ecd-4707-98b9-0ab638af3f3f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>methodCompile_1.py</StartupFile>
+    <StartupFile>methodCompile_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>methodCompile_1</Name>
     <RootNamespace>methodCompile_1</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="methodCompile_1.py" />
+    <Compile Include="methodCompile_2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
